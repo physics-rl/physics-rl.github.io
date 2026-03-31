@@ -1,17 +1,7 @@
----
-title: Supplementary Material for Rebuttal Experiment 2
-permalink: /rebuttal_exp2/
----
-
-# Supplementary Material for Rebuttal Experiment 2
-
-This page supports our rebuttal claim that the DSL-based scene representation is portable across simulators. We ported a subset of our MuJoCo entities and scenes to NVIDIA Omniverse, then rendered the corresponding scenes side by side.
-
-Across the examples below, the Omniverse videos reproduce the same scene structure and qualitatively consistent motion as the original MuJoCo simulations. This provides evidence that our abstraction operates at the level of reusable entities and connections rather than being tied to MuJoCo-specific syntax.
 
 ---
 
-## Scene Comparisons
+## Scene Videos
 
 ### Collision
 

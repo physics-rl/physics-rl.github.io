@@ -1,13 +1,3 @@
----
-title: Supplementary Material for Rebuttal Experiment 1
-permalink: /rebuttal_exp1/
----
-
-# Supplementary Material for Rebuttal Experiment 1
-
-This page collects the supplementary materials referenced in our rebuttal response on the scalability of LLMs for extending our DSL. It summarizes the benchmark questions, the new reusable entities introduced by the agent, the corresponding natural-language descriptions, and placeholder slots for videos and figures that will be added shortly.
-
-In the rebuttal, this page is intended to support the claim that LLMs can reliably extend the DSL by writing reusable entities, while direct raw MuJoCo XML generation remains much less reliable.
 
 ---
 
@@ -42,23 +32,18 @@ In the rebuttal, this page is intended to support the claim that LLMs can reliab
 
 ### MuJoCo Simulations
 
-<div style="margin: 1rem 0; padding: 1rem; border: 2px dashed #b8b8b8; border-radius: 10px; background: #fafafa;">
-  <strong>Placeholder video: DSL-generated simulation</strong><br>
-  Suggested file: <code>./videos/fma_2024_q17_dsl.mp4</code>
+<div style="display: flex; flex-wrap: wrap; gap: 1rem; margin: 1rem 0 2rem 0;">
+  <div style="flex: 1 1 420px;">
+    <div style="font-weight: 600; margin-bottom: 0.5rem;">DSL-generated simulation</div>
+    <video src="./F=MA-DSL.mp4" controls muted loop playsinline preload="metadata" style="width: 100%; border-radius: 12px; border: 1px solid #ddd; background: #000;"></video>
+  </div>
+  <div style="flex: 1 1 420px;">
+    <div style="font-weight: 600; margin-bottom: 0.5rem;">Direct XML attempt</div>
+    <video src="./F=MA-XML.mp4" controls muted loop playsinline preload="metadata" style="width: 100%; border-radius: 12px; border: 1px solid #ddd; background: #000;"></video>
+  </div>
 </div>
 
-<div style="margin: 1rem 0; padding: 1rem; border: 2px dashed #b8b8b8; border-radius: 10px; background: #fafafa;">
-  <strong>Placeholder video: direct-XML attempt</strong><br>
-  Suggested file: <code>./videos/fma_2024_q17_xml.mp4</code>
-</div>
-
-### Direct-XML Failure Example
-
-<div style="margin: 1rem 0; padding: 1rem; border: 2px dashed #b8b8b8; border-radius: 10px; background: #fafafa;">
-  <strong>Placeholder figure or video</strong><br>
-  Add a representative failure case here, for example:<br>
-  <code>./figures/fma_2024_q17_xml_failure.png</code>
-</div>
+In this case, direct XML generation fails.
 
 ---
 
@@ -93,23 +78,18 @@ In the rebuttal, this page is intended to support the claim that LLMs can reliab
 
 ### MuJoCo Simulations
 
-<div style="margin: 1rem 0; padding: 1rem; border: 2px dashed #b8b8b8; border-radius: 10px; background: #fafafa;">
-  <strong>Placeholder video: DSL-generated simulation</strong><br>
-  Suggested file: <code>./videos/usapho_2019_b3_dsl.mp4</code>
+<div style="display: flex; flex-wrap: wrap; gap: 1rem; margin: 1rem 0 2rem 0;">
+  <div style="flex: 1 1 420px;">
+    <div style="font-weight: 600; margin-bottom: 0.5rem;">DSL-generated simulation</div>
+    <video src="./USAPhO-DSL.mp4" controls muted loop playsinline preload="metadata" style="width: 100%; border-radius: 12px; border: 1px solid #ddd; background: #000;"></video>
+  </div>
+  <div style="flex: 1 1 420px;">
+    <div style="font-weight: 600; margin-bottom: 0.5rem;">Direct XML attempt</div>
+    <video src="./USAPhO-XML.mp4" controls muted loop playsinline preload="metadata" style="width: 100%; border-radius: 12px; border: 1px solid #ddd; background: #000;"></video>
+  </div>
 </div>
 
-<div style="margin: 1rem 0; padding: 1rem; border: 2px dashed #b8b8b8; border-radius: 10px; background: #fafafa;">
-  <strong>Placeholder video: direct-XML attempt</strong><br>
-  Suggested file: <code>./videos/usapho_2019_b3_xml.mp4</code>
-</div>
-
-### Direct-XML Failure Example
-
-<div style="margin: 1rem 0; padding: 1rem; border: 2px dashed #b8b8b8; border-radius: 10px; background: #fafafa;">
-  <strong>Placeholder figure or video</strong><br>
-  Add a representative failure case here, for example:<br>
-  <code>./figures/usapho_2019_b3_xml_failure.png</code>
-</div>
+In this case, direct XML generation is successful.
 
 ---
 
@@ -135,28 +115,17 @@ In the rebuttal, this page is intended to support the claim that LLMs can reliab
 
 ### MuJoCo Simulations
 
-<div style="margin: 1rem 0; padding: 1rem; border: 2px dashed #b8b8b8; border-radius: 10px; background: #fafafa;">
-  <strong>Placeholder video: DSL-generated simulation</strong><br>
-  Suggested file: <code>./videos/jee_advanced_2019_paper2_dsl.mp4</code>
+<div style="display: flex; flex-wrap: wrap; gap: 1rem; margin: 1rem 0 2rem 0;">
+  <div style="flex: 1 1 420px;">
+    <div style="font-weight: 600; margin-bottom: 0.5rem;">DSL-generated simulation</div>
+    <video src="./JEE-Advanced-DSL.mp4" controls muted loop playsinline preload="metadata" style="width: 100%; border-radius: 12px; border: 1px solid #ddd; background: #000;"></video>
+  </div>
+  <div style="flex: 1 1 420px;">
+    <div style="font-weight: 600; margin-bottom: 0.5rem;">Direct XML attempt</div>
+    <video src="./JEE-Advanced-XML.mp4" controls muted loop playsinline preload="metadata" style="width: 100%; border-radius: 12px; border: 1px solid #ddd; background: #000;"></video>
+  </div>
 </div>
 
-<div style="margin: 1rem 0; padding: 1rem; border: 2px dashed #b8b8b8; border-radius: 10px; background: #fafafa;">
-  <strong>Placeholder video: direct-XML attempt</strong><br>
-  Suggested file: <code>./videos/jee_advanced_2019_paper2_xml.mp4</code>
-</div>
-
-### Direct-XML Failure Example
-
-<div style="margin: 1rem 0; padding: 1rem; border: 2px dashed #b8b8b8; border-radius: 10px; background: #fafafa;">
-  <strong>Placeholder figure or video</strong><br>
-  Add a representative failure case here, for example:<br>
-  <code>./figures/jee_advanced_2019_paper2_xml_failure.png</code>
-</div>
+In this case, direct XML generation fails.
 
 ---
-
-## Notes for Final Asset Drop-In
-
-- Replace each placeholder block with the final image or video embed once the assets are available locally.
-- A natural public link for the rebuttal is: `https://physics-rl.github.io/rebuttal_exp1/`
-- This page is intentionally focused on the LLM-scaling experiment described in the general reviewer response.
